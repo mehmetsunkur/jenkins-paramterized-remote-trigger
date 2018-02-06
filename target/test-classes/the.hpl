@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Group-Id: org.jenkins-ci.plugins
+Short-Name: Parameterized-Remote-Trigger
+Long-Name: Parameterized Remote Trigger Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Parameterized+Remote+T
+ rigger+Plugin
+Plugin-Version: 2.2.3-SNAPSHOT (private-02/06/2018 11:59-quanvuong)
+Hudson-Version: 1.580
+Jenkins-Version: 1.580
+Plugin-Dependencies: token-macro:1.9,credentials:1.9.4
+Plugin-Developers: Maurice Williams:morficus:
+Libraries: /Users/quanvuong/HotSchedules/plugins/parameterized-remote-
+ trigger-plugin/target/classes
+Resource-Path: /Users/quanvuong/HotSchedules/plugins/parameterized-rem
+ ote-trigger-plugin/src/main/webapp
+

@@ -1,0 +1,87 @@
+Exploding /Users/quanvuong/.m2/repository/org/jenkins-ci/main/jenkins-war/1.580/jenkins-war-1.580-war-for-test.jar into /Users/quanvuong/HotSchedules/plugins/parameterized-remote-trigger-plugin/./target/jenkins-for-test
+Feb 06, 2018 11:59:50 AM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:52362/jenkins/
+Feb 06, 2018 11:59:52 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Feb 06, 2018 12:00:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Feb 06, 2018 12:00:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Feb 06, 2018 12:00:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Feb 06, 2018 12:00:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Feb 06, 2018 12:00:08 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Feb 06, 2018 12:00:19 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Feb 06, 2018 12:00:19 PM hudson.UDPBroadcastThread run
+WARNING: UDP handling problem
+java.net.SocketException: Can't assign requested address
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:178)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:76)
+
+=== Starting testRemoteBuildWithCrumb(org.jenkinsci.plugins.ParameterizedRemoteTrigger.RemoteBuildConfigurationTest)
+Feb 06, 2018 12:00:20 PM hudson.model.Run execute
+INFO: test0 #1 main build action completed: SUCCESS
+Feb 06, 2018 12:00:22 PM hudson.model.Run execute
+INFO: test1 #1 main build action completed: SUCCESS
+Feb 06, 2018 12:00:22 PM hudson.TcpSlaveAgentListener shutdown
+WARNING: Failed to close down TCP port
+java.io.IOException: No such file or directory
+	at sun.nio.ch.NativeThread.signal(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.implCloseSelectableChannel(ServerSocketChannelImpl.java:292)
+	at java.nio.channels.spi.AbstractSelectableChannel.implCloseChannel(AbstractSelectableChannel.java:234)
+	at java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:115)
+	at hudson.TcpSlaveAgentListener.shutdown(TcpSlaveAgentListener.java:119)
+	at jenkins.model.Jenkins.cleanUp(Jenkins.java:2793)
+	at org.jvnet.hudson.test.JenkinsRule.after(JenkinsRule.java:442)
+	at org.jvnet.hudson.test.JenkinsRule$2.evaluate(JenkinsRule.java:502)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+Feb 06, 2018 12:00:23 PM org.jvnet.hudson.test.JenkinsRule createWebServer
+INFO: Running on http://localhost:52388/jenkins/
+Feb 06, 2018 12:00:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Feb 06, 2018 12:00:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Feb 06, 2018 12:00:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Feb 06, 2018 12:00:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Feb 06, 2018 12:00:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Feb 06, 2018 12:00:23 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Feb 06, 2018 12:00:24 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Feb 06, 2018 12:00:24 PM hudson.UDPBroadcastThread run
+WARNING: UDP handling problem
+java.net.SocketException: Can't assign requested address
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:178)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:76)
+
+=== Starting testRemoteBuild(org.jenkinsci.plugins.ParameterizedRemoteTrigger.RemoteBuildConfigurationTest)
+Feb 06, 2018 12:00:24 PM hudson.model.Run execute
+INFO: test0 #1 main build action completed: SUCCESS
+Feb 06, 2018 12:00:27 PM hudson.model.Run execute
+INFO: test1 #1 main build action completed: SUCCESS
